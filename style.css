@@ -81,4 +81,9 @@ input{
 
 label{
     padding-bottom: 0px;
+} 
+
+:focus{ 
+    border: 4px solid blue;
 }
+

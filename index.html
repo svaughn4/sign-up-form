@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
 </head>
 <body>
     <div class="picture">
         <img src="nasa.jpg" alt="A galaxy" id="nasa"> 
-        <div class="logo">
-            <img src="odin.png" alt="Odin logo"> 
-            <p>Odin</p>
+        <div class="logo"> 
+            <img src="odin.png" alt="Odin logo" id="mini"> 
+            <p style="color: white; font-family: ownFont;" id="head">Odin</p>
         </div>
+        <p id="credit">Photo by Nasa on Unsplash</p>
     </div>
     <div class="info">
         <div class="description"> 
@@ -36,7 +38,7 @@
                         <input type="email" id="email" required> 
 
                         <label for="pass">Password</label>
-                        <input type="text" id="pass" required minlength="6">
+                        <input type="text" id="pass" required>
                     </fieldset>
 
                     <fieldset class="right">
@@ -47,13 +49,14 @@
                         <input type="text" id="phone" required>
         
                         <label for="confirmPass">Confirm Password</label>
-                        <input type="text" id="confrimPass" required minlength="6">
+                        <input type="text" id="confirmPass" required>
                     </fieldset>
-                </span>
+                </span> 
+                <p id="error"></p>
             </form>
         </div>
         <div class="account"> 
-            <button onclick="Create()"">Create Account</button> 
+            <a href="https://www.theodinproject.com"><button>Create Account</button></a> 
             <span>
                 <p>Already have an account? <a href="https://www.theodinproject.com"> Log in</a></p>
             </span>

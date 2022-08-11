@@ -18,7 +18,7 @@ body{
 }
 
 .description, .account {
-    background-color: lightgray;
+    background-color: rgb(240, 239, 239);
 }
 
 .description, .account, .form {
@@ -28,5 +28,26 @@ body{
 }
 .description{
     font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 0px;
 }
 
+.account{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 30px;
+}
+
+button{ 
+    background-color: #596D48;
+    border-radius: 10%;
+    color: white;
+    font-size: 24px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 50px;
+} 
+
+a{ 
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 700;
+}
